@@ -1,0 +1,9 @@
+{
+  "$comment": "Client config for the Agent Marketplace MCP server. Use an ABSOLUTE path.",
+  "mcpServers": {
+    "agent-marketplace": {
+      "command": "node",
+      "args": ["/abs/path/to/agent-marketplace/mcp-server/src/server.ts"]
+    }
+  }
+}

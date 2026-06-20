@@ -1,0 +1,11 @@
+{
+  "name": "agent-marketplace-mcp",
+  "version": "0.1.0",
+  "private": true,
+  "type": "module",
+  "description": "MCP server exposing the Agent Marketplace — search_marketplace, get_listing, install_listing, publish_listing — so any MCP host/agent can discover and install security-reviewed agents and MCP servers.",
+  "bin": { "agent-marketplace-mcp": "src/server.ts" },
+  "scripts": { "start": "node src/server.ts", "smoke": "node scripts/smoke.ts" },
+  "dependencies": { "@modelcontextprotocol/sdk": "^1.0.0", "zod": "^3.23.0" },
+  "engines": { "node": ">=22.18" }
+}
