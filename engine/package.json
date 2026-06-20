@@ -1,0 +1,12 @@
+{
+  "name": "agent-marketplace-engine",
+  "version": "0.1.0",
+  "private": true,
+  "type": "module",
+  "description": "Agent Marketplace (#7) engine — publish security-reviewed listings (agents / MCP servers / workflows), discover/search, one-click install, ratings, usage metering, and creator revenue share. Node native TypeScript; zero-network.",
+  "scripts": {
+    "demo": "node scripts/demo.ts",
+    "test": "node scripts/test.ts"
+  },
+  "engines": { "node": ">=22.18" }
+}

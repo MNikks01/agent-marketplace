@@ -1,0 +1,18 @@
+# Agent Marketplace
+
+> A curated, monetized marketplace for AI agents, MCP servers, and workflows: creators publish (security-reviewed), consumers discover + one-click install into ContextOS (#1), run (observed via #4), with usage-based revenue share (Stripe Connect). Project #7 of the AI Startup Lab; the ecosystem moat. Built LAST (Year 3) — needs the platform's distribution + supply + trust first to beat cold-start. Spec-first; no code yet.
+
+## Core
+- [README](./README.md), [VISION](./VISION.md) (why last), [PROBLEM](./PROBLEM.md), [CUSTOMERS](./CUSTOMERS.md) (two-sided), [FEATURES](./FEATURES.md), [USER_STORIES](./USER_STORIES.md)
+## Engineering
+- [ARCHITECTURE](./ARCHITECTURE.md), [TECH_STACK](./TECH_STACK.md) (Stripe Connect; reuse #1/#3/#4), [DATABASE](./DATABASE.md), [API_DESIGN](./API_DESIGN.md), [AI_ARCHITECTURE](./AI_ARCHITECTURE.md), [RAG](./RAG.md) (discovery), [MCP](./MCP.md), [AGENT_DESIGN](./AGENT_DESIGN.md)
+## Production
+- [SECURITY](./SECURITY.md) (trust is existential), [OBSERVABILITY](./OBSERVABILITY.md) (the flywheel), [GUARDRAILS](./GUARDRAILS.md) (curation/review), [DEVOPS](./DEVOPS.md)
+## Execution
+- [TASKS](./TASKS.md), [SPRINTS](./SPRINTS.md) (Year 3; seed both sides before launch)
+## Business
+- [PRICING](./PRICING.md) (take-rate + revenue share), [GTM](./GTM.md) (cold-start via #1), [SALES](./SALES.md), [RISKS](./RISKS.md) (cold-start = THE risk), [HIRING](./HIRING.md), [OPEN_SOURCE](./OPEN_SOURCE.md), [RESUME_VALUE](./RESUME_VALUE.md)
+## For agents
+- [CLAUDE.md](./CLAUDE.md), [AGENTS.md](./AGENTS.md), [mcp.json](./mcp.json)
+## Key
+Network-effect moat; sequenced LAST; reuses #1 (install) + #3 (supply/lint) + #4 (observability).

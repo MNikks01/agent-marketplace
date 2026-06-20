@@ -1,0 +1,12 @@
+{
+  "$comment": "Agent Marketplace MCP config template. 'marketplace' lets an agent discover + install capabilities (with HITL approval). Listings of type mcp_server install into ContextOS (#1). Replace ${VARS} from your environment/secret manager — never commit real tokens.",
+  "mcpServers": {
+    "marketplace": {
+      "url": "https://api.agentmarket.dev/mcp",
+      "transport": "streamable-http",
+      "headers": { "Authorization": "Bearer ${MARKETPLACE_API_KEY}" },
+      "description": "Search and install security-reviewed agents, MCP servers, and workflows.",
+      "tools": ["search_marketplace", "get_listing", "install_listing"]
+    }
+  }
+}
