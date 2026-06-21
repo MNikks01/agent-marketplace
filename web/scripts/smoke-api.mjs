@@ -1,5 +1,8 @@
 // End-to-end web API proof for the Agent Marketplace. No browser, no keys.
 const BASE = process.env.BASE || "http://localhost:3990";
+const __h = await fetch(BASE + "/api/health").then((r) => r.json()).catch(() => ({}));
+if (__h.status !== "ok") throw new Error("health check failed");
+console.log("\u2713 /api/health -> ok");
 const get = (p) => fetch(BASE + p).then((r) => r.json());
 const post = (p, b) => fetch(BASE + p, { method: "POST", headers: { "content-type": "application/json" }, body: JSON.stringify(b) });
 
