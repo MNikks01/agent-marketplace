@@ -32,6 +32,7 @@ export default function Home() {
   }, [q, type]);
 
   useEffect(() => {
+    // eslint-disable-next-line react-hooks/set-state-in-effect -- intentional client-side initial data load
     load();
   }, [load]);
 
