@@ -1,6 +1,15 @@
 # Agent Marketplace
 
-> **A curated, monetized marketplace for AI agents, MCP servers, and workflows.** Creators publish; teams discover, install, and run them — security-reviewed, with revenue share. The ecosystem layer that sits on top of the platform.
+[![License: Apache 2.0](https://img.shields.io/badge/License-Apache_2.0-blue.svg)](./LICENSE)
+[![Free & Open Source](https://img.shields.io/badge/Free%20%26%20Open%20Source-%E2%9C%93-brightgreen.svg)](#-free--open-source)
+[![Sponsor](https://img.shields.io/badge/Sponsor-%E2%99%A5-ff69b4.svg)](https://github.com/sponsors/MNikks01)
+
+> 💚 **Free & open source, forever.** Every feature is available to everyone — no paywalls, no tiers, no sign-up. Clone and self-host it, or use the hosted app. Licensed under Apache-2.0. If it helps you, [sponsoring](https://github.com/sponsors/MNikks01) is welcome but always optional.
+
+**▶ Try it / deploy your own:** [![Deploy with Vercel](https://vercel.com/button)](https://vercel.com/new/clone?repository-url=https%3A%2F%2Fgithub.com%2FMNikks01%2Fagent-marketplace&root-directory=web&project-name=agent-marketplace) · see [DEPLOY.md](./DEPLOY.md) for CLI & self-hosting.
+
+
+> **A curated, open marketplace for AI agents, MCP servers, and workflows.** Creators publish; teams discover, install, and run them — security-reviewed. The marketplace software itself is free & open source; any creator revenue-share is a listing-level concept that creators opt into, never a fee to use this platform. The ecosystem layer that sits on top of the platform.
 
 **Project #7** · Priority ⭐⭐ (platform) · Difficulty: High (network effects) · Time-to-MVP: 3–4 months · **Build LAST (Year 3).**
 
