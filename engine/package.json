@@ -1,14 +1,33 @@
 {
-  "name": "agent-marketplace-engine",
+  "name": "@mnikks01/agentmarket",
   "version": "0.1.0",
-  "private": true,
   "type": "module",
   "description": "Agent Marketplace (#7) engine — publish security-reviewed listings (agents / MCP servers / workflows), discover/search, one-click install, ratings, usage metering, and creator revenue share. Node native TypeScript; zero-network.",
-  "bin": { "agentmarket": "src/cli.ts" },
+  "bin": {
+    "agentmarket": "src/cli.ts"
+  },
   "scripts": {
     "cli": "node src/cli.ts",
     "demo": "node scripts/demo.ts",
     "test": "node --test test/*.test.ts"
   },
-  "engines": { "node": ">=22.18" }
+  "engines": {
+    "node": ">=23.6"
+  },
+  "license": "Apache-2.0",
+  "files": [
+    "src",
+    "README.md",
+    "LICENSE"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/MNikks01/agent-marketplace.git",
+    "directory": "engine"
+  },
+  "homepage": "https://github.com/MNikks01/agent-marketplace#readme",
+  "bugs": "https://github.com/MNikks01/agent-marketplace/issues",
+  "publishConfig": {
+    "access": "public"
+  }
 }
