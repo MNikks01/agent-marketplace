@@ -8,6 +8,14 @@
 
 **▶ Try it / deploy your own:** [![Deploy with Vercel](https://vercel.com/button)](https://vercel.com/new/clone?repository-url=https%3A%2F%2Fgithub.com%2FMNikks01%2Fagent-marketplace&root-directory=web&project-name=agent-marketplace) · see [DEPLOY.md](./DEPLOY.md) for CLI & self-hosting.
 
+**🖥️ CLI:** search, install, and publish listings (security-reviewed; seeds a demo catalog):
+```bash
+node engine/src/cli.ts list
+node engine/src/cli.ts search "payments stripe"
+node engine/src/cli.ts install stripe-mcp     # prints the mcp.json fragment
+node engine/src/cli.ts publish listing.json
+```
+
 
 > **A curated, open marketplace for AI agents, MCP servers, and workflows.** Creators publish; teams discover, install, and run them — security-reviewed. The marketplace software itself is free & open source; any creator revenue-share is a listing-level concept that creators opt into, never a fee to use this platform. The ecosystem layer that sits on top of the platform.
 

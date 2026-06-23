@@ -4,7 +4,9 @@
   "private": true,
   "type": "module",
   "description": "Agent Marketplace (#7) engine — publish security-reviewed listings (agents / MCP servers / workflows), discover/search, one-click install, ratings, usage metering, and creator revenue share. Node native TypeScript; zero-network.",
+  "bin": { "agentmarket": "src/cli.ts" },
   "scripts": {
+    "cli": "node src/cli.ts",
     "demo": "node scripts/demo.ts",
     "test": "node --test test/*.test.ts"
   },
