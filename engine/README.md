@@ -2,7 +2,7 @@
 
 ## Install & CLI
 
-search, install, and publish marketplace listings (security-reviewed). Requires Node ≥23.6 (runs on Node's native TypeScript).
+search, install, and publish marketplace listings (security-reviewed). Requires Node ≥18.
 
 ```bash
 npm i -g @mnikks01/agentmarket    # then run `agentmarket …`, or use npx without installing:

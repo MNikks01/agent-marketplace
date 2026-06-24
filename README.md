@@ -8,7 +8,7 @@
 
 **▶ Try it / deploy your own:** [![Deploy with Vercel](https://vercel.com/button)](https://vercel.com/new/clone?repository-url=https%3A%2F%2Fgithub.com%2FMNikks01%2Fagent-marketplace&root-directory=web&project-name=agent-marketplace) · see [DEPLOY.md](./DEPLOY.md) for CLI & self-hosting.
 
-**🖥️ CLI:** search, install, and publish marketplace listings (security-reviewed) — published on npm (needs Node ≥23.6):
+**🖥️ CLI:** search, install, and publish marketplace listings (security-reviewed) — published on npm (needs Node ≥18):
 ```bash
 npm i -g @mnikks01/agentmarket    # installs the `agentmarket` command — or use npx (no install) below
 npx @mnikks01/agentmarket list
