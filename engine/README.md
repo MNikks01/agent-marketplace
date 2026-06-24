@@ -1,5 +1,18 @@
 # Agent Marketplace — engine (Phase A) ✅
 
+## Install & CLI
+
+search, install, and publish marketplace listings (security-reviewed). Requires Node ≥23.6 (runs on Node's native TypeScript).
+
+```bash
+npm i -g @mnikks01/agentmarket    # then run `agentmarket …`, or use npx without installing:
+npx @mnikks01/agentmarket list
+npx @mnikks01/agentmarket search "payments stripe"
+npx @mnikks01/agentmarket install stripe-mcp     # prints the mcp.json fragment
+npx @mnikks01/agentmarket publish listing.json
+```
+
+
 The core engine for project #7, the ecosystem layer. Creators **publish** listings (agents /
 MCP servers / workflows) that pass an automated **security review**; consumers **discover**,
 **install** (one-click), and **rate** them; **usage metering** drives **creator revenue share**.
