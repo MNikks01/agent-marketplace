@@ -1,6 +1,6 @@
 {
   "name": "@mnikks01/agentmarket",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "type": "module",
   "description": "Agent Marketplace (#7) engine — publish security-reviewed listings (agents / MCP servers / workflows), discover/search, one-click install, ratings, usage metering, and creator revenue share. Node native TypeScript; zero-network.",
   "bin": {
